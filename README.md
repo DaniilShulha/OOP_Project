@@ -22,67 +22,125 @@
 
 # Диаграмма классов
 
-![DataModels](https://raw.github.com/DaniilShulha/OOP_Project/lab1/screenshot/models.png)
+![DataModels](https://github.com/DaniilShulha/OOP_Project/lab1/screenshot/Diagram.png)
 
-### Класс ToDoListItem
+Данное приложение использует архитектуру MVVM (Model - View - ViewModel)
 
-* id: String - уникальный идентификатор задачи.
+# Models
+
+
+
+### Модель Task
+
+* taskID: String - уникальный идентификатор задачи.
 * description: String - содержание задачи.
 * dueDate: TimeInterval - дата , к которой нужно выполнить задачу.
 * createdDate: TimeInterval - дата создания задачи.
+* isDone: Bool - переменная для проверки выполнения задания.
 
-### Класс NewItem
+### Модель User
 
-* description: String - содержание задачи.
-* dueDate: TimeInterval - дата , к которой нужно выполнить задачу.
-* alert: Bool - переменная, для установления ошибки в создании новой задачи
+* userID: String - уникальный идентификатор пользователя.
+* username: String - имя пользователя.
+* email: String - электронная почта пользователя.
+* joined: TimeInterval - дата создания аккаунта.
   
-### Класс ToDoListView
+# ViewModels
 
-* showingNewItemView: Bool - переменная для показа окна создания задачи.
-* items: ToDoListItem - перемення для хранения данных о задаче.
-* userID: String - переменная для указания базе данных , куда записывать информацию
 
-### Класс User
 
-* id: String - уникальный идентификатор пользователя
-* username: String - имя пользователя
-* email: String - электронная почта пользователя
-* joined: TimeInterval - дата создания аккаунта
+### Модель отображения RegisterViewModel
 
-### Класс Login
+* username: String - имя пользователя.
+* password: String - пароль от аккаунта.
+* email: String - электронная почта пользователя.
 
-* email: String - электронная почта пользователя
-* password: String - пароль пользователя
+### Модель отображения LoginViewModel
 
-### Класс Register
+* email: String - электронная почта пользователя.
+* password: String - пароль от аккаунта.
 
-* username: String - имя пользователя
-* password: String - пароль пользователя
-* email: String - электронная почта пользователя
+### Модель отображения MainViewModel
+
+* userID: String - уникальный идентификатор пользователя.
+
+### Модель отображения ToDoListViewModel
+
+* tasks: [Task] - список задач пользователя.
+* userID: String - уникальный идентификатор пользователя.
+
+### Модель отображения NewItemViewModel
+
+* title - описание новой задачи.
+* dueDate: TimeInterval - дата , к которой нужно выполнить задачу.
+
+# Views
+
+
+
+### Отображение RegisterView
+
+* viewModel: RegisterViewModel - переменная типа RegisterViewModel для выполнения регистрации.
+
+### Отображение LoginView
+
+* viewModel: LoginViewModel - переменная типа LoginViewModel для выполния входа.
+
+### Отображеине MainView
+
+* viewModel: MainViewModel - переменная типа MainViewModel для проверки авторизации.
+
+### Отображение ToDoListView
+
+* viewModel: ToDoListViewModel - переменная типа ToDoListViewModel для удаления задачи и показа всех существующих задач.
+
+### Отображение NewItemView
+
+* viewModel: NewItemModel - переменная типа NewItemView для создания новой задачи
+
+### Отображение CalendarView
+
+* viewModel: CalendarViewModel - переменная типа CalendarViewModel для проверки наличия задания в определенный день.
+
+### Отображение TaskView
+
+* task: Task - переменная типа Task для установки значений в элементах интерфейса.
+* viewModel: TaskViewModel - переменная типа TaskViewModel для выполнения задачи.
 
 # Методы
 
-### Методы класса ToDoListItem
+### Методы модели отображения RegisterViewModel
 
-* setDone(state: Bool) - метод для установки того выполнена задача или нет.
+* register() - метод, осуществляющий регистрацию пользователя.
+* confirm() - метод для проверки, введенных пользователем, данных.
+* createUser() - метод, создающий пользователя в базе данных.
 
-### Методы класса NewItem
+### Методы модели отображения LoginViewModel
+
+* confirm() - метод для проверка существования данных пользователя.
+* login() - метод, осуществляющий авторизацию пользователя.
+
+### Метод модели отображения MainViewModel
+
+* checkAuthorization() - метод, проверяющий вошел ли пользователь в аккаунт или нет.
+
+### Методы модели отображения ToDoListViewModel
+
+* getTasksFromDB(userID: String) - мето для получения всех задач пользователя из базы данных.
+* deleteTask(taskID: String) - метод для удаления задачи по ее идентификатору.
+
+## Метод модели отображения TaskViewModel
+
+* setDone() - метод, который позволяет отметить задачу как выполненную.
+
+## Методы модели отображения NewItemViewModel
+
+* addNewTask() - метод, добавляющий новую задачу.
+* checkCorrectness() - метод, проверяющий корректность данных в новой задаче.
+
+## Метод модели отображения CalendarViewModel
+
+* checkDate(date: Date) - метод для проверки наличия задач в определенный день.
 
 * save() - метод для добавления и сохранения новой задачи.
 * checkForCorrectness() - метод для проверки корректна ли поставлена задача.
-
-### Методы класса ToDoListView
-
-* fetchData(userID: string) - метод, принимающий идентификатор пользователя, для добавления информации в базу данных.
-* deleteItem(itemID: string) - метод, принимающий идентификатор задачи, для удаления задачи.
-
-### Методы класса Login
-
-* confirm() - метод для проверки и подтверждения данных пользователя.
-* login() - метод для осуществления входа пользователя в приложение.
-
-### Методы класса Register
-
-* confirm() - метод для проверки корректности введенных данных.
-* register() - метод для осуществления регистрации пользователя.

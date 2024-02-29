@@ -22,13 +22,13 @@
 
 # Диаграмма классов
 
-![DataModels](https://github.com/DaniilShulha/OOP_Project/lab1/screenshot/Diagram.png)
+![Diagram](https://raw.github.com/DaniilShulha/OOP_Project/lab1/screenshot/Diagram.png)
 
 Данное приложение использует архитектуру MVVM (Model - View - ViewModel)
 
 # Models
 
-
+![Models](https://raw.github.com/DaniilShulha/OOP_Project/blob/lab1/screenshot/models.png)
 
 ### Модель Task
 
@@ -47,7 +47,7 @@
   
 # ViewModels
 
-
+![ViewModels](https://raw.github.com/DaniilShulha/OOP_Project/blob/lab1/screenshot/ViewModels.png)
 
 ### Модель отображения RegisterViewModel
 
@@ -76,7 +76,7 @@
 
 # Views
 
-
+![Views](https://raw.github.com/DaniilShulha/OOP_Project/blob/lab1/screenshot/Views.png)
 
 ### Отображение RegisterView
 

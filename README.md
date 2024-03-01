@@ -47,7 +47,7 @@
   
 # ViewModels
 
-![ViewModels](https://raw.github.com/DaniilShulha/OOP_Project/lab1/screenshot/ViewModels.png)
+![ViewModels](https://github.com/DaniilShulha/OOP_Project/lab1/screenshot/ViewModels2.png)
 
 ### Модель отображения RegisterViewModel
 
@@ -132,6 +132,7 @@
 ## Метод модели отображения TaskViewModel
 
 * setDone() - метод, который позволяет отметить задачу как выполненную.
+* update() - метод для редактиирования задачи.
 
 ## Методы модели отображения NewItemViewModel
 

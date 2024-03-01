@@ -22,7 +22,7 @@
 
 # Диаграмма классов
 
-![Diagram](https://raw.github.com/DaniilShulha/OOP_Project/lab1/screenshot/Diagram.png)
+![Diagram](https://raw.github.com/DaniilShulha/OOP_Project/lab1/screenshot/ModelsUpdate.png)
 
 Данное приложение использует архитектуру MVVM (Model - View - ViewModel)
 
@@ -47,7 +47,7 @@
   
 # ViewModels
 
-![ViewModels](https://github.com/DaniilShulha/OOP_Project/lab1/screenshot/ViewModels2.png)
+![ViewModels](https://raw.github.com/DaniilShulha/OOP_Project/lab1/screenshot/ViewModels2.png)
 
 ### Модель отображения RegisterViewModel
 

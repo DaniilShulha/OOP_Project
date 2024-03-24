@@ -126,7 +126,7 @@
 
 ### Методы модели отображения ToDoListViewModel
 
-* getTasksFromDB(userID: String) - мето для получения всех задач пользователя из базы данных.
+* getTasksFromDB(userID: String) - метод для получения всех задач пользователя из базы данных.
 * deleteTask(taskID: String) - метод для удаления задачи по ее идентификатору.
 
 ## Метод модели отображения TaskViewModel

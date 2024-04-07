@@ -22,13 +22,13 @@
 
 # Диаграмма классов
 
-![DataModels](https://github.com/DaniilShulha/OOP_Project/lab1/screenshot/Diagram.png)
+![DataModels](https://raw.github.com/DaniilShulha/OOP_Project/lab1/screenshot/Diagram.png)
 
 Данное приложение использует архитектуру MVVM (Model - View - ViewModel)
 
 # Models
 
-
+![DataModels](https://raw.github.com/DaniilShulha/OOP_Project/lab1/screenshot/Diagram.png)
 
 ### Модель Task
 

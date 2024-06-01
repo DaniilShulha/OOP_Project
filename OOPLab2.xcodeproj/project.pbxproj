@@ -10,6 +10,8 @@
 		AB0892412BAB6B5900D07890 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0892402BAB6B5900D07890 /* User.swift */; };
 		AB0892472BAB7D6C00D07890 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0892462BAB7D6C00D07890 /* LoginViewModel.swift */; };
 		AB0892492BAB7E8600D07890 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0892482BAB7E8600D07890 /* RegisterViewModel.swift */; };
+		AB0F33192BC7FB0E0074C617 /* libMySerializer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0F33182BC7FB0E0074C617 /* libMySerializer.a */; };
+		AB5150022BC6CB2B00889528 /* libMyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5150012BC6CB2B00889528 /* libMyLib.a */; };
 		AB9F9B922BA97A6F0069F781 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9F9B912BA97A6F0069F781 /* main.swift */; };
 		ABFBFC1D2BAE20E700DA46F9 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFBFC1C2BAE20E700DA46F9 /* Task.swift */; };
 		ABFBFC1F2BAE227400DA46F9 /* NewItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFBFC1E2BAE227400DA46F9 /* NewItemViewModel.swift */; };
@@ -32,6 +34,11 @@
 		AB0892402BAB6B5900D07890 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		AB0892462BAB7D6C00D07890 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		AB0892482BAB7E8600D07890 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		AB0F33182BC7FB0E0074C617 /* libMySerializer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMySerializer.a; path = SerializerLibrary/libMySerializer.a; sourceTree = "<group>"; };
+		AB0F331A2BC7FC200074C617 /* output.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = output.json; path = "../../../Library/Developer/Xcode/DerivedData/OOPLab2-fnvamrjduzuivnbpjqewucgbtatk/Build/Products/Debug/output.json"; sourceTree = "<group>"; };
+		AB0F331B2BC801500074C617 /* output2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = output2.json; path = "../../../Library/Developer/Xcode/DerivedData/OOPLab2-fnvamrjduzuivnbpjqewucgbtatk/Build/Products/Debug/output2.json"; sourceTree = "<group>"; };
+		AB0F331C2BC801570074C617 /* output3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = output3.json; path = "../../../Library/Developer/Xcode/DerivedData/OOPLab2-fnvamrjduzuivnbpjqewucgbtatk/Build/Products/Debug/output3.json"; sourceTree = "<group>"; };
+		AB5150012BC6CB2B00889528 /* libMyLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMyLib.a; path = library/libMyLib.a; sourceTree = "<group>"; };
 		AB9F9B8E2BA97A6F0069F781 /* OOPLab2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OOPLab2; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9F9B912BA97A6F0069F781 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		ABFBFC1C2BAE20E700DA46F9 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
@@ -44,12 +51,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB0F33192BC7FB0E0074C617 /* libMySerializer.a in Frameworks */,
+				AB5150022BC6CB2B00889528 /* libMyLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB514FE82BC6B38400889528 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB0F33182BC7FB0E0074C617 /* libMySerializer.a */,
+				AB5150012BC6CB2B00889528 /* libMyLib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AB6AC6112BB57BAB00752386 /* models */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +93,7 @@
 			children = (
 				AB9F9B902BA97A6F0069F781 /* OOPLab2 */,
 				AB9F9B8F2BA97A6F0069F781 /* Products */,
+				AB514FE82BC6B38400889528 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +108,9 @@
 		AB9F9B902BA97A6F0069F781 /* OOPLab2 */ = {
 			isa = PBXGroup;
 			children = (
+				AB0F331A2BC7FC200074C617 /* output.json */,
+				AB0F331B2BC801500074C617 /* output2.json */,
+				AB0F331C2BC801570074C617 /* output3.json */,
 				AB9F9B912BA97A6F0069F781 /* main.swift */,
 				AB6AC6122BB57BCF00752386 /* viewModels */,
 				AB6AC6112BB57BAB00752386 /* models */,
@@ -289,7 +311,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/library",
+					"$(PROJECT_DIR)/SerializerLibrary",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/library $(PROJECT_DIR)/SerializerLibrary";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -298,7 +326,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/library",
+					"$(PROJECT_DIR)/SerializerLibrary",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/library $(PROJECT_DIR)/SerializerLibrary";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct TaskClass {
-    internal let taskID = UUID().uuidString
+struct TaskClass: Codable {
+    internal var taskID = UUID().uuidString
     internal var description: String
     internal var dueDate: Date
-    internal let createdDate = Date()
+    internal var createdDate = Date()
     internal var isDone: Bool
     
 //    mutating func setDone(_ state: Bool) {

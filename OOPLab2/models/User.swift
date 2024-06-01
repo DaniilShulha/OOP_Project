@@ -7,7 +7,7 @@
 
 import Foundation
 
-class UserClass {
+class UserClass: Codable {
     internal var userID = UUID().uuidString
     internal var username: String
     internal var email: String
@@ -26,10 +26,10 @@ class UserClass {
     
     
     
-    func detailedDescription(users: [UserClass])  {
-        for user in users {
-            print("User ID: \(user.userID), username: \(user.username), email: \(user.email), joined: \(user.joined), password: \(user.password)")
-        }
-    }
+//    func detailedDescription(users: [UserClass])  {
+//        for user in users {
+//            print("User ID: \(user.userID), username: \(user.username), email: \(user.email), joined: \(user.joined), password: \(user.password)")
+//        }
+//    }
 }
 

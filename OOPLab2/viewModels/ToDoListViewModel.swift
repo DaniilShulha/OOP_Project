@@ -25,7 +25,7 @@ class ToDoListViewModel {
     func getAllTasksInfo() {
         print("All tasks:")
         for task in taskItem.taskArray {
-            if let index = dataArray.firstIndex(where: { $0[0] == task.description && $0[1] == userID }) {
+            if dataArray.firstIndex(where: { $0[0] == task.description && $0[1] == userID }) != nil {
                 print("\(task.taskID) - \(task.description), created date: \(task.createdDate), due date: \(task.dueDate), done: \(task.isDone)")
             }
         }

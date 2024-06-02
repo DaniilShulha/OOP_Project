@@ -28,6 +28,10 @@ struct MainView: View {
                     Label("Home", systemImage: "house")
                 }
             
+            ContentView()
+                .tabItem {
+                    Label("Calendar", systemImage: "calendar")
+                }
             
             ProfileView()
                 .tabItem {

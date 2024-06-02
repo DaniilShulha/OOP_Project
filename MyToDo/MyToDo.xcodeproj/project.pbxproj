@@ -28,8 +28,11 @@
 		AB37F79D2BD5870C0059028D /* TaskViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37F79C2BD5870C0059028D /* TaskViewViewModel.swift */; };
 		AB37F79F2BD587170059028D /* ToDoListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37F79E2BD587170059028D /* ToDoListViewViewModel.swift */; };
 		AB37F7A12BD587200059028D /* CalendarViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37F7A02BD587200059028D /* CalendarViewViewModel.swift */; };
+		AB3F1BFF2C0B927D0061310D /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = AB3F1BFE2C0B927D0061310D /* FSCalendar */; };
 		AB5A81F02BE015D20081CA7A /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5A81EF2BE015D20081CA7A /* EditItemView.swift */; };
 		AB63B8272BD92B3700183C2C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB63B8262BD92B3700183C2C /* HeaderView.swift */; };
+		AB6826B52C0CFA8D00DBE0EE /* ToDoViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6826B42C0CFA8D00DBE0EE /* ToDoViewmodel.swift */; };
+		AB6826B72C0CFAEA00DBE0EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6826B62C0CFAEA00DBE0EE /* ContentView.swift */; };
 		ABE867782BCD109E004A8390 /* MyToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE867772BCD109E004A8390 /* MyToDoApp.swift */; };
 		ABE8677A2BCD109E004A8390 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE867792BCD109E004A8390 /* MainView.swift */; };
 		ABE8677C2BCD109F004A8390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE8677B2BCD109F004A8390 /* Assets.xcassets */; };
@@ -78,6 +81,8 @@
 		AB37F7A02BD587200059028D /* CalendarViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewViewModel.swift; sourceTree = "<group>"; };
 		AB5A81EF2BE015D20081CA7A /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		AB63B8262BD92B3700183C2C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		AB6826B42C0CFA8D00DBE0EE /* ToDoViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewmodel.swift; sourceTree = "<group>"; };
+		AB6826B62C0CFAEA00DBE0EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ABE867742BCD109E004A8390 /* MyToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE867772BCD109E004A8390 /* MyToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToDoApp.swift; sourceTree = "<group>"; };
 		ABE867792BCD109E004A8390 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -98,6 +103,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB37F7722BD579090059028D /* FirebaseAuth in Frameworks */,
+				AB3F1BFF2C0B927D0061310D /* FSCalendar in Frameworks */,
 				AB37F7742BD579090059028D /* FirebaseFirestore in Frameworks */,
 				AB37F7762BD579090059028D /* FirebaseFirestoreSwift in Frameworks */,
 			);
@@ -140,6 +146,7 @@
 				AB37F79C2BD5870C0059028D /* TaskViewViewModel.swift */,
 				AB37F79E2BD587170059028D /* ToDoListViewViewModel.swift */,
 				AB37F7A02BD587200059028D /* CalendarViewViewModel.swift */,
+				AB6826B42C0CFA8D00DBE0EE /* ToDoViewmodel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -157,6 +164,7 @@
 				AB63B8262BD92B3700183C2C /* HeaderView.swift */,
 				ABFF84CE2BD98088001E6EFA /* ButtonView.swift */,
 				AB5A81EF2BE015D20081CA7A /* EditItemView.swift */,
+				AB6826B62C0CFAEA00DBE0EE /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -250,6 +258,7 @@
 				AB37F7712BD579090059028D /* FirebaseAuth */,
 				AB37F7732BD579090059028D /* FirebaseFirestore */,
 				AB37F7752BD579090059028D /* FirebaseFirestoreSwift */,
+				AB3F1BFE2C0B927D0061310D /* FSCalendar */,
 			);
 			productName = MyToDo;
 			productReference = ABE867742BCD109E004A8390 /* MyToDo.app */;
@@ -325,6 +334,7 @@
 			mainGroup = ABE8676B2BCD109E004A8390;
 			packageReferences = (
 				AB37F7702BD579090059028D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				AB3F1BFD2C0B927D0061310D /* XCRemoteSwiftPackageReference "FSCalendar" */,
 			);
 			productRefGroup = ABE867752BCD109E004A8390 /* Products */;
 			projectDirPath = "";
@@ -371,6 +381,7 @@
 			files = (
 				AB63B8272BD92B3700183C2C /* HeaderView.swift in Sources */,
 				AB37F7A12BD587200059028D /* CalendarViewViewModel.swift in Sources */,
+				AB6826B72C0CFAEA00DBE0EE /* ContentView.swift in Sources */,
 				AB37F7852BD584ED0059028D /* NewItemView.swift in Sources */,
 				AB37F7972BD586C30059028D /* LoginViewViewModel.swift in Sources */,
 				AB37F7872BD585000059028D /* TaskView.swift in Sources */,
@@ -385,6 +396,7 @@
 				AB37F7912BD586340059028D /* Task.swift in Sources */,
 				AB37F7832BD584DE0059028D /* RegisterView.swift in Sources */,
 				AB37F79F2BD587170059028D /* ToDoListViewViewModel.swift in Sources */,
+				AB6826B52C0CFA8D00DBE0EE /* ToDoViewmodel.swift in Sources */,
 				AB37F77F2BD584C60059028D /* ProfileView.swift in Sources */,
 				AB37F7812BD584D30059028D /* LoginView.swift in Sources */,
 				AB37F78F2BD5862D0059028D /* User.swift in Sources */,
@@ -726,6 +738,14 @@
 				minimumVersion = 10.24.0;
 			};
 		};
+		AB3F1BFD2C0B927D0061310D /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.4;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -743,6 +763,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AB37F7702BD579090059028D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestoreSwift;
+		};
+		AB3F1BFE2C0B927D0061310D /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB3F1BFD2C0B927D0061310D /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

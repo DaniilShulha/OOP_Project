@@ -27,9 +27,9 @@
 		AB37F79B2BD586D90059028D /* NewItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37F79A2BD586D90059028D /* NewItemViewViewModel.swift */; };
 		AB37F79D2BD5870C0059028D /* TaskViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37F79C2BD5870C0059028D /* TaskViewViewModel.swift */; };
 		AB37F79F2BD587170059028D /* ToDoListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37F79E2BD587170059028D /* ToDoListViewViewModel.swift */; };
-		AB37F7A12BD587200059028D /* CalendarViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37F7A02BD587200059028D /* CalendarViewViewModel.swift */; };
 		AB3F1BFF2C0B927D0061310D /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = AB3F1BFE2C0B927D0061310D /* FSCalendar */; };
 		AB5A81F02BE015D20081CA7A /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5A81EF2BE015D20081CA7A /* EditItemView.swift */; };
+		AB5DE6ED2C0D132C00C9BC9E /* libMyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5DE6EC2C0D132C00C9BC9E /* libMyLib.a */; };
 		AB63B8272BD92B3700183C2C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB63B8262BD92B3700183C2C /* HeaderView.swift */; };
 		AB6826B52C0CFA8D00DBE0EE /* ToDoViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6826B42C0CFA8D00DBE0EE /* ToDoViewmodel.swift */; };
 		AB6826B72C0CFAEA00DBE0EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6826B62C0CFAEA00DBE0EE /* ContentView.swift */; };
@@ -78,8 +78,8 @@
 		AB37F79A2BD586D90059028D /* NewItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModel.swift; sourceTree = "<group>"; };
 		AB37F79C2BD5870C0059028D /* TaskViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewViewModel.swift; sourceTree = "<group>"; };
 		AB37F79E2BD587170059028D /* ToDoListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewViewModel.swift; sourceTree = "<group>"; };
-		AB37F7A02BD587200059028D /* CalendarViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewViewModel.swift; sourceTree = "<group>"; };
 		AB5A81EF2BE015D20081CA7A /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
+		AB5DE6EC2C0D132C00C9BC9E /* libMyLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMyLib.a; path = "Static Library/libMyLib.a"; sourceTree = "<group>"; };
 		AB63B8262BD92B3700183C2C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		AB6826B42C0CFA8D00DBE0EE /* ToDoViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewmodel.swift; sourceTree = "<group>"; };
 		AB6826B62C0CFAEA00DBE0EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB5DE6ED2C0D132C00C9BC9E /* libMyLib.a in Frameworks */,
 				AB37F7722BD579090059028D /* FirebaseAuth in Frameworks */,
 				AB3F1BFF2C0B927D0061310D /* FSCalendar in Frameworks */,
 				AB37F7742BD579090059028D /* FirebaseFirestore in Frameworks */,
@@ -145,7 +146,6 @@
 				AB37F79A2BD586D90059028D /* NewItemViewViewModel.swift */,
 				AB37F79C2BD5870C0059028D /* TaskViewViewModel.swift */,
 				AB37F79E2BD587170059028D /* ToDoListViewViewModel.swift */,
-				AB37F7A02BD587200059028D /* CalendarViewViewModel.swift */,
 				AB6826B42C0CFA8D00DBE0EE /* ToDoViewmodel.swift */,
 			);
 			path = ViewModels;
@@ -180,6 +180,14 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
+		AB5DE6EB2C0D132B00C9BC9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB5DE6EC2C0D132C00C9BC9E /* libMyLib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ABE8676B2BCD109E004A8390 = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +195,7 @@
 				ABE867872BCD109F004A8390 /* MyToDoTests */,
 				ABE867912BCD10A0004A8390 /* MyToDoUITests */,
 				ABE867752BCD109E004A8390 /* Products */,
+				AB5DE6EB2C0D132B00C9BC9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -380,7 +389,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB63B8272BD92B3700183C2C /* HeaderView.swift in Sources */,
-				AB37F7A12BD587200059028D /* CalendarViewViewModel.swift in Sources */,
 				AB6826B72C0CFAEA00DBE0EE /* ContentView.swift in Sources */,
 				AB37F7852BD584ED0059028D /* NewItemView.swift in Sources */,
 				AB37F7972BD586C30059028D /* LoginViewViewModel.swift in Sources */,
@@ -578,10 +586,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PROJECT_DIR)/Static\\ Library\"",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dshulga.MyToDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INCLUDE_PATHS = "\"$(PROJECT_DIR)/Static\\ Library\"";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -607,10 +620,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PROJECT_DIR)/Static\\ Library\"",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dshulga.MyToDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INCLUDE_PATHS = "\"$(PROJECT_DIR)/Static\\ Library\"";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

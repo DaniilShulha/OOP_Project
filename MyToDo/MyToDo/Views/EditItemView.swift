@@ -1,5 +1,5 @@
 import SwiftUI
-
+import OOPLibrary
 struct EditItemView: View {
     @StateObject var viewModel = NewItemViewViewModel()
     @Binding var editItemPresented: Bool

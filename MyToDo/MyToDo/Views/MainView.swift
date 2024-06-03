@@ -7,8 +7,7 @@
 //
 
 import SwiftUI
-import MyLib
-
+import OOPLibrary
 struct MainView: View {
     @StateObject var viewModel = MainViewViewModel()
     

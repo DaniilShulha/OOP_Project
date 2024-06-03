@@ -17,5 +17,6 @@ struct MyToDoApp: App {
         WindowGroup {
             MainView()
         }
+        
     }
 }

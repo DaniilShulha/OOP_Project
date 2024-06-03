@@ -20,18 +20,11 @@
 		AB37F7892BD585BD0059028D /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37F7882BD585BD0059028D /* ToDoListView.swift */; };
 		AB37F78F2BD5862D0059028D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37F78E2BD5862D0059028D /* User.swift */; };
 		AB37F7912BD586340059028D /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37F7902BD586340059028D /* Task.swift */; };
-		AB37F7932BD586970059028D /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37F7922BD586970059028D /* MainViewViewModel.swift */; };
-		AB37F7952BD586A30059028D /* ProfileViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37F7942BD586A30059028D /* ProfileViewViewModel.swift */; };
-		AB37F7972BD586C30059028D /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37F7962BD586C30059028D /* LoginViewViewModel.swift */; };
-		AB37F7992BD586CE0059028D /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37F7982BD586CE0059028D /* RegisterViewViewModel.swift */; };
-		AB37F79B2BD586D90059028D /* NewItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37F79A2BD586D90059028D /* NewItemViewViewModel.swift */; };
-		AB37F79D2BD5870C0059028D /* TaskViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37F79C2BD5870C0059028D /* TaskViewViewModel.swift */; };
-		AB37F79F2BD587170059028D /* ToDoListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37F79E2BD587170059028D /* ToDoListViewViewModel.swift */; };
 		AB3F1BFF2C0B927D0061310D /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = AB3F1BFE2C0B927D0061310D /* FSCalendar */; };
 		AB5A81F02BE015D20081CA7A /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5A81EF2BE015D20081CA7A /* EditItemView.swift */; };
 		AB5DE6ED2C0D132C00C9BC9E /* libMyLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5DE6EC2C0D132C00C9BC9E /* libMyLib.a */; };
 		AB63B8272BD92B3700183C2C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB63B8262BD92B3700183C2C /* HeaderView.swift */; };
-		AB6826B52C0CFA8D00DBE0EE /* ToDoViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6826B42C0CFA8D00DBE0EE /* ToDoViewmodel.swift */; };
+		AB667D562C0E1336005375B2 /* OOPLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = AB667D552C0E1336005375B2 /* OOPLibrary */; };
 		AB6826B72C0CFAEA00DBE0EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6826B62C0CFAEA00DBE0EE /* ContentView.swift */; };
 		ABE867782BCD109E004A8390 /* MyToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE867772BCD109E004A8390 /* MyToDoApp.swift */; };
 		ABE8677A2BCD109E004A8390 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE867792BCD109E004A8390 /* MainView.swift */; };
@@ -71,17 +64,9 @@
 		AB37F7882BD585BD0059028D /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		AB37F78E2BD5862D0059028D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		AB37F7902BD586340059028D /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
-		AB37F7922BD586970059028D /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
-		AB37F7942BD586A30059028D /* ProfileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewModel.swift; sourceTree = "<group>"; };
-		AB37F7962BD586C30059028D /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
-		AB37F7982BD586CE0059028D /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
-		AB37F79A2BD586D90059028D /* NewItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModel.swift; sourceTree = "<group>"; };
-		AB37F79C2BD5870C0059028D /* TaskViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewViewModel.swift; sourceTree = "<group>"; };
-		AB37F79E2BD587170059028D /* ToDoListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewViewModel.swift; sourceTree = "<group>"; };
 		AB5A81EF2BE015D20081CA7A /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		AB5DE6EC2C0D132C00C9BC9E /* libMyLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMyLib.a; path = "Static Library/libMyLib.a"; sourceTree = "<group>"; };
 		AB63B8262BD92B3700183C2C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
-		AB6826B42C0CFA8D00DBE0EE /* ToDoViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewmodel.swift; sourceTree = "<group>"; };
 		AB6826B62C0CFAEA00DBE0EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ABE867742BCD109E004A8390 /* MyToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE867772BCD109E004A8390 /* MyToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToDoApp.swift; sourceTree = "<group>"; };
@@ -107,6 +92,7 @@
 				AB3F1BFF2C0B927D0061310D /* FSCalendar in Frameworks */,
 				AB37F7742BD579090059028D /* FirebaseFirestore in Frameworks */,
 				AB37F7762BD579090059028D /* FirebaseFirestoreSwift in Frameworks */,
+				AB667D562C0E1336005375B2 /* OOPLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,21 +120,6 @@
 				AB37F7902BD586340059028D /* Task.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		AB37F77A2BD57EB10059028D /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				AB37F7922BD586970059028D /* MainViewViewModel.swift */,
-				AB37F7942BD586A30059028D /* ProfileViewViewModel.swift */,
-				AB37F7962BD586C30059028D /* LoginViewViewModel.swift */,
-				AB37F7982BD586CE0059028D /* RegisterViewViewModel.swift */,
-				AB37F79A2BD586D90059028D /* NewItemViewViewModel.swift */,
-				AB37F79C2BD5870C0059028D /* TaskViewViewModel.swift */,
-				AB37F79E2BD587170059028D /* ToDoListViewViewModel.swift */,
-				AB6826B42C0CFA8D00DBE0EE /* ToDoViewmodel.swift */,
-			);
-			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		AB37F77B2BD57EBB0059028D /* Views */ = {
@@ -215,7 +186,6 @@
 				ABFC6FB42BDD46DD00F4E801 /* Info.plist */,
 				AB37F77C2BD57EE50059028D /* Other */,
 				AB37F7792BD57EA70059028D /* Models */,
-				AB37F77A2BD57EB10059028D /* ViewModels */,
 				AB37F77B2BD57EBB0059028D /* Views */,
 				ABE8677D2BCD109F004A8390 /* Preview Content */,
 			);
@@ -268,6 +238,7 @@
 				AB37F7732BD579090059028D /* FirebaseFirestore */,
 				AB37F7752BD579090059028D /* FirebaseFirestoreSwift */,
 				AB3F1BFE2C0B927D0061310D /* FSCalendar */,
+				AB667D552C0E1336005375B2 /* OOPLibrary */,
 			);
 			productName = MyToDo;
 			productReference = ABE867742BCD109E004A8390 /* MyToDo.app */;
@@ -344,6 +315,7 @@
 			packageReferences = (
 				AB37F7702BD579090059028D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				AB3F1BFD2C0B927D0061310D /* XCRemoteSwiftPackageReference "FSCalendar" */,
+				AB667D522C0E0F20005375B2 /* XCRemoteSwiftPackageReference "OOPLibrary" */,
 			);
 			productRefGroup = ABE867752BCD109E004A8390 /* Products */;
 			projectDirPath = "";
@@ -391,20 +363,12 @@
 				AB63B8272BD92B3700183C2C /* HeaderView.swift in Sources */,
 				AB6826B72C0CFAEA00DBE0EE /* ContentView.swift in Sources */,
 				AB37F7852BD584ED0059028D /* NewItemView.swift in Sources */,
-				AB37F7972BD586C30059028D /* LoginViewViewModel.swift in Sources */,
 				AB37F7872BD585000059028D /* TaskView.swift in Sources */,
-				AB37F7932BD586970059028D /* MainViewViewModel.swift in Sources */,
-				AB37F7952BD586A30059028D /* ProfileViewViewModel.swift in Sources */,
-				AB37F79B2BD586D90059028D /* NewItemViewViewModel.swift in Sources */,
-				AB37F7992BD586CE0059028D /* RegisterViewViewModel.swift in Sources */,
 				AB1295972BDA5DE6008DDF01 /* Extensions.swift in Sources */,
-				AB37F79D2BD5870C0059028D /* TaskViewViewModel.swift in Sources */,
 				AB37F7892BD585BD0059028D /* ToDoListView.swift in Sources */,
 				ABE8677A2BCD109E004A8390 /* MainView.swift in Sources */,
 				AB37F7912BD586340059028D /* Task.swift in Sources */,
 				AB37F7832BD584DE0059028D /* RegisterView.swift in Sources */,
-				AB37F79F2BD587170059028D /* ToDoListViewViewModel.swift in Sources */,
-				AB6826B52C0CFA8D00DBE0EE /* ToDoViewmodel.swift in Sources */,
 				AB37F77F2BD584C60059028D /* ProfileView.swift in Sources */,
 				AB37F7812BD584D30059028D /* LoginView.swift in Sources */,
 				AB37F78F2BD5862D0059028D /* User.swift in Sources */,
@@ -764,6 +728,14 @@
 				minimumVersion = 2.8.4;
 			};
 		};
+		AB667D522C0E0F20005375B2 /* XCRemoteSwiftPackageReference "OOPLibrary" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/DaniilShulha/OOPLibrary.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -786,6 +758,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AB3F1BFD2C0B927D0061310D /* XCRemoteSwiftPackageReference "FSCalendar" */;
 			productName = FSCalendar;
+		};
+		AB667D552C0E1336005375B2 /* OOPLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB667D522C0E0F20005375B2 /* XCRemoteSwiftPackageReference "OOPLibrary" */;
+			productName = OOPLibrary;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

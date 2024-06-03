@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+import OOPLibrary
 struct RegisterView: View {
     @StateObject var viewModel = RegisterViewViewModel()
     

@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+import OOPLibrary
 struct ProfileView: View {
     @StateObject var viewModel = ProfileViewViewModel()
     

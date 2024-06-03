@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+import OOPLibrary
 struct NewItemView: View {
     @StateObject var viewModel = NewItemViewViewModel()
     @Binding var newItemPresented: Bool
